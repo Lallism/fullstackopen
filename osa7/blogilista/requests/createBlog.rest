@@ -1,0 +1,10 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFub3RoZXIiLCJpZCI6IjY2MzA5ZTcxYWMyNjlkMjI3ZGRkZmY3YiIsImlhdCI6MTcxNDQ3MDE3NX0.tdH1FgTM7tTuNHPk9WNLWqCod_V_Oelz8TAyOX5igqc
+
+{
+  "title": "asd",
+  "author": "man",
+  "url": "someurl.idk",
+  "likes": 5
+}
